@@ -1,0 +1,29 @@
+header
+{
+  display: flex;
+  justify-content: space-between;
+}
+.First
+{
+  text-align: right;
+}
+.round
+{
+  height: 16;
+  width: 16;
+  border-radius: 100px;
+}
+.flex{
+  display: flex;
+}
+.ForPhoto
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TextAboutMe
+{
+  line-height: 0.9em;
+}
