@@ -1,5 +1,6 @@
 header
 {
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -9,9 +10,10 @@ header
 }
 .round
 {
-  height: 16;
-  width: 16;
-  border-radius: 100px;
+  text-align: center;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
 }
 .flex{
   display: flex;
@@ -26,4 +28,22 @@ header
 .TextAboutMe
 {
   line-height: 0.9em;
+}
+.LetterForHeader
+{
+  width: 12px;
+  height: 12px;
+}
+.Person
+{
+  text-align: center;
+  background-color:#9be0d5 ;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.PersonForSection
+{
+  width: 100px;
+  height: 100px;
 }
