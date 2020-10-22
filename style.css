@@ -1,5 +1,10 @@
 body{
-  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   height: 800px;
 }
@@ -32,7 +37,6 @@ header
 }
 .TextAboutMe
 {
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 .LetterForHeader
@@ -76,37 +80,29 @@ header
 }
 .Grid
 {
-  height: 200px;
+  height: 380px;
   display: grid;
-  grid-template-columns:440px 290px 440px ;
-  grid-template-rows: 34% 33% 33%;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-rows: repeat(6,1fr);
   grid-gap:10px 10px;
-  grid-template-areas:
-  "Notebook Paper onlyCoffee"
-  "Notebook Paper onlyCoffee"
-  "Monoblock Paper Chair";
-}
-.border
-{
-  border: ridge;
 }
 .First
 {
-  grid-area: Notebook;
+  grid-row: 1 / 4;
 }
 .second
 {
-  grid-area: Monoblock;
+  grid-row: 4 / 7;
 }
 .third
 {
-  grid-area: Paper;
+  grid-row: 1/7;
 }
 .fourth
 {
-  grid-area: onlyCoffee;
+  grid-row:1/5;
 }
 .fifth
 {
-  grid-area: Chair;
+  grid-row: 5/7;
 }
