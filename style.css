@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  width: 1200px;
+  height: 800px;
+}
 header
 {
   margin: 0;
@@ -27,7 +32,8 @@ header
 }
 .TextAboutMe
 {
-  line-height: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 .LetterForHeader
 {
@@ -46,4 +52,61 @@ header
 {
   width: 100px;
   height: 100px;
+}
+.Hi
+{
+  font-size: 20px;
+}
+.BigText
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.SmallText
+{
+  font-size: 17px;
+}
+.button
+{
+  background-color: black;
+  color: White;
+  width: 150px;
+  height: 50px;
+  border-radius: 35px;
+}
+.Grid
+{
+  height: 200px;
+  display: grid;
+  grid-template-columns:440px 290px 440px ;
+  grid-template-rows: 34% 33% 33%;
+  grid-gap:10px 10px;
+  grid-template-areas:
+  "Notebook Paper onlyCoffee"
+  "Notebook Paper onlyCoffee"
+  "Monoblock Paper Chair";
+}
+.border
+{
+  border: ridge;
+}
+.First
+{
+  grid-area: Notebook;
+}
+.second
+{
+  grid-area: Monoblock;
+}
+.third
+{
+  grid-area: Paper;
+}
+.fourth
+{
+  grid-area: onlyCoffee;
+}
+.fifth
+{
+  grid-area: Chair;
 }
